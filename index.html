@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <title>My favorite things</title>
   </head>
   <body>
@@ -10,52 +11,49 @@
     <h3>People</h3>
     <p>Here are some of my favorite <em>people</em>!</p>
     <ul>
-      <li>
-        <a href="http://www.example.com/christopher.html">
-          My boyfriend <strong>Nicholas</strong>
-          <img src="img/Nick.jpeg" alt="A photo of Nicholas.">
-        </a>
-      </li>
-      <li>
+      <div class="column">
+        <li>
           <a href="http://www.example.com/christopher.html">
-            My stepson <strong>Culain</strong>
-            <img src="img/Culain.jpeg" alt="A photo of Culain.">
+            <p>My boyfriend <strong>Nicholas</strong></p>
+            <img src="img/Nick.jpeg" class="medium" alt="A photo of Nicholas." />
           </a>
         </li>
-      <li>
-        My mom and dad:
-        <ul>
-          <li>
-            <a href="http://www.example.com/steve.html">
-              <strong>John</strong>
-              <img src="img/John.jpeg" alt="A photo of John.">
-            </a>
-          </li>
-          <li>
-            <a href="http://www.example.com/carol.html">
-              <strong>Janna</strong>
-              <img src="img/Janna.jpeg" alt="A photo of Janna.">
-            </a>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <a href="http://www.example.com/jessica.html">
-          My sister <strong>Anna</strong>
-          <img src="img/Anna.jpeg" alt="A photo of Anna.">
-        </a>
-      </li>
-      <li>
-        <a href="http://www.example.com/candy.html">
-          My sister <strong>Kate</strong>
-          <img src="img/Kate.jpeg" alt="A photo of Kate.">
-        </a>
-      </li>
+        <li>
+          <a href="http://www.example.com/christopher.html">
+            <p>My stepson <strong>Culain</strong></p>
+            <img src="img/Culain.jpeg" class="medium" alt="A photo of Culain." />
+          </a>
+        </li>
+      </div>
+      <div class="column"> 
+        <li>
+          <a href="http://www.example.com/steve.html">
+            <p>My dad <strong>John</strong></p>
+            <img src="img/John.jpeg" class="medium" alt="A photo of John." />
+          </a>
+        </li>
+        <li>
+          <a href="http://www.example.com/carol.html">
+            <p>My mom <strong>Janna</strong></p>
+            <img src="img/Janna.jpeg" class="medium" alt="A photo of Janna." />
+          </a>
+        </li>
+      </div>
+      <div class="column">
+        <li>
+          <a href="http://www.example.com/jessica.html">
+            <p>My sister <strong>Anna</strong></p>
+            <img src="img/Anna.jpeg" class="medium" alt="A photo of Anna." />
+          </a>
+        </li>
+        <li>
+          <a href="http://www.example.com/candy.html">
+            <p>My sister <strong>Kate</strong></p>
+            <img src="img/Kate.jpeg" class="medium" alt="A photo of Kate." />
+          </a>
+        </li>
+      </div>
     </ul>
-
-    <h3>Websites</h3>
-    <p>Here are some of my favorite <em>websites</em>!</p>
-
     <p>Thanks for reading about me!</p>
   </body>
 </html>
